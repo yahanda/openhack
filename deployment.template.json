@@ -11,9 +11,9 @@
             "loggingOptions": "",
             "registryCredentials": {
               "acr4yahanda": {
-                "username": "$CONTAINER_REGISTRY_USERNAME_acr4yahanda",
-                "password": "$CONTAINER_REGISTRY_PASSWORD_acr4yahanda",
-                "address": "acr4yahanda.azurecr.io"
+                "username": "${ACR_USER}",
+                "password": "${ACR_PASSWORD}",
+                "address": "${ACR_ADDRESS}"
               }
             }
           }
